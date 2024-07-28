@@ -1,4 +1,4 @@
--- Use the specified database
+	-- Use the specified database
 USE alx_book_store;
 
 -- Select full description of the books table
@@ -12,5 +12,5 @@ SELECT
 FROM 
     INFORMATION_SCHEMA.COLUMNS 
 WHERE 
-    TABLE_SCHEMA = 'alx_book_store', TABLE_NAME = 'books';
+    TABLE_SCHEMA = 'alx_book_store' AND TABLE_NAME = 'Books';
 
